@@ -1,6 +1,7 @@
 FROM ubuntu:22.10
 
 # ジャッジサーバーに既に入ってるらしいパッケージをインストール
+# python3 python3-pip で競合を発生させる
 RUN apt-get update && \
     apt-get install -y python3 python3-pip wget sudo && \
     apt-get clean && \
