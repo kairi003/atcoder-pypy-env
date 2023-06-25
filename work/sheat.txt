@@ -7,20 +7,20 @@ dockerのubuntu:22.10でインストールとビルドしたライブラリの�
 何分提案シートを編集するのは初めてなのでおかしな点などあればご指摘いただけると幸いです。
 https://github.com/kairi003/atcoder-pypy-env
 
---- Version	2023-01-17
-+++ Version	2023-06-25
+--- Version  2023-01-17
++++ Version  2023-06-25
 -7.3.11
 +3.10-v7.3.12
 
 
---- Object file	2023-01-21
-+++ Object file	2023-06-25
+--- Object file  2023-01-21
++++ Object file  2023-06-25
 -./__pycache__/Main.pypy39.pyc
 +./__pycache__/Main.pypy310.pyc
 
 
---- Install Command	2023-06-22
-+++ Install Command	2023-06-25
+--- Install Command  2023-06-22
++++ Install Command  2023-06-25
 @@ -2,23 +2,19 @@
  cd /tmp
  
