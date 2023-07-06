@@ -4,7 +4,7 @@ cd /tmp
 sudo apt update
 # git : ac-library-pythonのインストールなどに使う
 # wget, bzip2 : バイナリのDLと展開に必要
-sudo apt get install -y git wget bzip2
+sudo apt install -y git wget bzip2
 
 # pypy3.10-v7.3.12-linux64.tar.bz2をダウンロードして手動でインストール
 wget https://downloads.python.org/pypy/pypy3.10-v7.3.12-linux64.tar.bz2

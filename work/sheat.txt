@@ -29,7 +29,7 @@ https://github.com/kairi003/atcoder-pypy-env
  # git : ac-library-pythonのインストールなどに使う
 -sudo apt-get install -y software-properties-common git
 +# wget, bzip2 : バイナリのDLと展開に必要
-+sudo apt get install -y git wget bzip2
++sudo apt install -y git wget bzip2
  
 -# 普通にsudo apt install pypyでインストールすると7.3.1がインストールされるので
 -# 下記のようにインストール
