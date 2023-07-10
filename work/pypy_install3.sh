@@ -8,7 +8,7 @@ sudo apt install -y git wget bzip2
 
 # pypy3.10-v7.3.12-linux64.tar.bz2をダウンロードして手動でインストール
 wget https://downloads.python.org/pypy/pypy3.10-v7.3.12-linux64.tar.bz2
-sudo tar -xvf pypy3.10-v7.3.12-linux64.tar.bz2 -C /usr/local
+sudo tar xjf pypy3.10-v7.3.12-linux64.tar.bz2 -C /usr/local
 sudo ln -s /usr/local/pypy3.10-v7.3.12-linux64/bin/pypy3 /usr/local/bin/pypy3
 
 # pipを使えるようにする
