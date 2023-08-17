@@ -30,7 +30,7 @@ pypy3 -mpip install --break-system-packages \
     mpmath==1.2.1 \
     pandas==1.5.2 \
     z3-solver==4.12.1.0 \
-    scikit-learn==1.2.0 \
+    scikit-learn==1.3.0 \
     typing-extensions==4.4.0 \
     cppyy==2.4.1 \
     git+https://github.com/not522/ac-library-python
